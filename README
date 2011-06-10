@@ -1,0 +1,16 @@
+Custom Notification Center Widgets (WeeApps) by @WillFour20
+
+This is a very bare example of how to add a custom widget to the iOS 5 notification centre.
+
+All it really does is say 'Hello World' for now.
+
+Its pretty easy to understand, you create a class that implements the BBWeeAppController protocol. The only required function you must have is '- (UIView *)view' in which you must return the view that you want to appear. There are also other methods in the protocol for launching URLs when tapped and for rotation detection, view height, etc.
+
+I don't yet know how to set the name in the Settings.app but it seems that the icon shown is set by setting the app identifier in Info.plist of the app which icon you want. (e.g. to get your custom widget to have the Safari icon set the 'AppBundleID' in Info.plist to 'com.apple.mobilesafari')
+
+Custom bundles are placed in /System/Library/WeeAppPlugins/
+
+This is a pretty shitty example but i'm sure some great stuff can come out of this.
+
+Problems:
+This does not show up correctly in the Settings.app, it appears without a name and a messed up icon.
