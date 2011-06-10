@@ -11,6 +11,3 @@ The i is set by settings the 'AppBundleID' key in the Info.plist file to an app 
 Custom bundles are placed in /System/Library/WeeAppPlugins/
 
 This is a pretty shitty example but i'm sure some great stuff can come out of this.
-
-Problems:
-This does not show up correctly in the Settings.app, it appears without a name and a messed up icon.
