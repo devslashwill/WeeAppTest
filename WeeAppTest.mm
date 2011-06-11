@@ -2,7 +2,7 @@
 #import <UIKit/UIKit.h>
 #import "BBWeeAppController-Protocol.h"
 
-@interface WeeAppTestConroller : NSObject <BBWeeAppController>
+@interface WeeAppTestController : NSObject <BBWeeAppController>
 {
     UIView *_view;
 }
@@ -12,7 +12,7 @@
 
 @end
 
-@implementation WeeAppTestConroller
+@implementation WeeAppTestController
 
 + (void)initialize
 {
